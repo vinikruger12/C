@@ -10,11 +10,11 @@ vector<string> times = {
         "Concordia",
         "Criciuma",
         "Figueirense",
-        "Hercilio Luz",
-        "Inter de Lages",
+        "Caravaggio",
+        "Santa Catarina",
         "Joinville",
         "Marcilio Dias",
-        "Nacao"
+        "Hercílio Luz"
     };
 
 bool idTime(string time, int i = 0){
@@ -33,7 +33,7 @@ bool idTime(string time, int i = 0){
 int main(){
     
     string time1,time2;
-    cout << "Qual seu primeiro time e segundo time:" << endl<< endl;
+    cout << "Qual seu primeiro time e segundo time:" << endl; 
     for(int i = 0;i < times.size();i++){
         cout << times[i] << endl;
     }
