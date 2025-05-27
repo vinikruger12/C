@@ -17,4 +17,12 @@ int main(){
         printf("%c \n", nome[indice]);
     }
 
+     for(indice = 0;indice < strlen(nome);indice++){
+        if(nome[indice] == 'a' || nome[indice] == 'e' ||nome[indice] == 'a' || nome[indice] == 'e')
+    }
+
+    
+
+
+
 }
