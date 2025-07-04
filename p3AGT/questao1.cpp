@@ -16,13 +16,13 @@ int main(){
 
         for(int j = 0;j < nAlunos;j++){
 
-            cin >> matriz[i][j];
+            cin >> matriz[i][j];        
 
             if(i == 0){
-                somaPFN += matriz[i][j];   // adiciona para no fim fazer a media da turma
-                    if(matriz[i][j] < 7) contaExamePFN++; // A entrada for menor que 7, ira contabilizar 
-            }                                              // um aluno de exame
-            else if(i == 1){
+                somaPFN += matriz[i][j];                    // adiciona para no fim fazer a media da turma
+                    if(matriz[i][j] < 7) contaExamePFN++;   // A entrada for menor que 7, ira contabilizar 
+            }                                               // um aluno de exame
+            else if(i == 1){    
                 somaCALC += matriz[i][j];
                     if(matriz[i][j] < 7) contaExameCALC++;
             } 
